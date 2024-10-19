@@ -30,3 +30,4 @@ console.log(a16);
 // BigO notation for an Array:
 // To perform a get query in a set sized array is O(1) as no matter what the size of array remains same and it does not increases the iteration.
 // And with the fixed width and fixed datatype we do not have to do any iterations to get a particular index
+// There are no methods such as Push and Pop of insertion in array as it's pretty much re-allocating the particular chunk of memory
