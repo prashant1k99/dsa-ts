@@ -27,6 +27,12 @@ console.log(a16);
 // Uint16Array(3) [ 45, 45, 17733 ]
 // Since we are setting the 0th index as 45 and second index 45, so 16 bit is calculating 0-2 as single space and 2-4 as single
 
+console.log("Allocating the a16 3rd index");
+a16[3] = 14823;
+console.log(a);
+// Uint16Array(3) [ 45, 45, 17733 ]
+// Since the arrays are of fix length then it does adds the additional character
+
 // BigO notation for an Array:
 // To perform a get query in a set sized array is O(1) as no matter what the size of array remains same and it does not increases the iteration.
 // And with the fixed width and fixed datatype we do not have to do any iterations to get a particular index
